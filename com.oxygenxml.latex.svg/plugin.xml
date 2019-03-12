@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.oxygenxml.latex.svg">
+  <feature extension="package.support.name" value="Oxygen XML Editor Support"/>
+  <feature extension="package.support.email" value="support@oxygenxml.com"/>
+  <feature extension="package.version" value="21.0"/>
+  <feature extension="dita.conductor.lib.import" file="lib/latexToSVG.jar"  xml:base="."/>
+  <feature extension="dita.conductor.lib.import" file="lib/jlatexmath-1.0.3.jar"  xml:base="."/>
+  
+  <feature extension="dita.xsl.xhtml" value="xsl/xhtmlSVG.xsl" type="file"/>
+  <feature extension="dita.xsl.html5" value="xsl/xhtmlSVG.xsl" type="file"/>
+  <feature extension="com.oxygenxml.pdf.css.xsl.merged2html5" value="xsl/xhtmlSVG.xsl" type="file"/>
+  
+  <feature extension="dita.xsl.xslfo" value="xsl/pdfSVG.xsl" type="file"/>
+</plugin>

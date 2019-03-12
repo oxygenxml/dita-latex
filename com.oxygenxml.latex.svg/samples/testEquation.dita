@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="testEquation">
+    <title>Test equation</title>
+    <body>
+        <p>
+            <foreign outputclass="embed-latex">L' = {L}{\sqrt{1-\frac{v^2}{c^2}}}</foreign>
+        </p>
+        <p>
+            <foreign outputclass="embed-latex">\lim_{x\to 0}{\frac{e^x-1}{2x}}
+                \overset{\left[\frac{0}{0}\right]}{\underset{\mathrm{H}}{=}}
+                \lim_{x\to 0}{\frac{e^x}{2}}={\frac{1}{2}}</foreign>
+        </p>
+    </body>
+</topic>
