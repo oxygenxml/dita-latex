@@ -11,7 +11,7 @@ available in the base directory of this plugin.
   version="2.0"
   xmlns:saxon="http://saxon.sf.net/"
   xmlns:converter="java:com.oxygenxml.latex.svg.LatexToSVG">
-  <xsl:template match="*[contains(@class, ' topic/foreign ')][contains(@outputclass, 'embed-latex')]" priority="10">
+  <xsl:template match="*[contains(@class, ' topic/foreign ')][contains(@outputclass, 'embed-latex')] | *[contains(@class, ' topic/latex ')]" priority="10">
     <span>
       <xsl:call-template name="commonattributes"/>
       <xsl:copy-of select="parse-xml(converter:convert(text()))" use-when="not(function-available('saxon:parse'))"/>
