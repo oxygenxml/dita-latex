@@ -6,6 +6,8 @@ The plugin was tested and developed with DITA OT 3.2.1.
 If you set the @outputclass="embed-latex" attribute on a DITA <foreign> element the plugin will attempt to convert it to SVG.
 The "samples" folder contains a sample DITA topic with a Latex equation which is properly displayed when converted to HTML and PDF-based outputs.
   
+![Preview Latex as SVG](previewLatex.png)
+  
 Copyright and License
 ---------------------
 Copyright 2019 Syncro Soft SRL.
