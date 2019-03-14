@@ -1,43 +1,42 @@
-<div>
-<h1>Contributing</h1>
+This project is an Open Source project and welcomes contributions from everyone who finds it useful or lacking. 
 
-<div>
-<h2><a id="openParticipation">Public Participation Invited</a></h2>
+Syncro Soft uses [the Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0) to strike a balance between open contribution and allowing you to use the software however you would like to. 
 
-<p>This <a href="https://www.oasis-open.org/resources/open-repositories">OASIS Open Repository</a> ( <b><a href="https://github.com/oasis-open/dita-lightweight">github.com/oasis-open/dita-lightweight</a></b> ) is a community public repository that supports participation by anyone, whether affiliated with OASIS or not.  Substantive contributions (repository "code") and related feedback is invited from all parties, following the common conventions for participation in GitHub public repository projects.  Participation is expected to be consistent with the <a href="https://www.oasis-open.org/policies-guidelines/open-repositories">OASIS Open Repository Guidelines and Procedures</a>, the <a href="https://www.oasis-open.org/sites/www.oasis-open.org/files/Apache-LICENSE-2.0.txt">LICENSE</a> designated for this particular repository (Apache License v 2.0), and the requirement for an <a href="https://www.oasis-open.org/resources/open-repositories/cla/individual-cla">Individual Contributor License Agreement</a>.  Please see the repository <a href="https://github.com/oasis-open/dita-lightweight/blob/master/README.md">README</a> document for other details.</p>
-</div>
+The license tells you what rights you have that are provided by the copyright holder. It is important that the contributor fully understands what rights they are licensing and agrees to them. Sometimes the copyright holder isn't the contributor, such as when the contributor is doing work on behalf of a company. To make a good faith effort to ensure these criteria are met, Syncro Soft requires the Developer Certificate of Origin (DCO) process to be followed. 
 
+The DCO is an attestation attached to every contribution made by every developer. In the commit message of the contribution, the developer simply adds a Signed-off-by statement and thereby agrees to the DCO, which you can find below or at <http://developercertificate.org/>.
 
-<div>
-<h2><a id="distinctRules">Governance Distinct from OASIS TC Process</a></h2>
-<p>Content accepted as "contributions" to this Open Repository, as <a href="#openRepoContribution">defined</a> below, are distinct from any <a href="https://www.oasis-open.org/policies-guidelines/ipr#contributions">Contributions</a> made to the associated <a href="https://www.oasis-open.org/committees/dita/">OASIS Darwin Information Typing Architecture (DITA) TC</a> itself.  Participation in the associated Technical Committee is governed by the <a href="https://www.oasis-open.org/policies-guidelines/bylaws">OASIS Bylaws</a>, <a href="https://www.oasis-open.org/policies-guidelines/tc-process">OASIS TC Process</a>, <a href="https://www.oasis-open.org/policies-guidelines/ipr">IPR Policy</a>, and related <a href="https://www.oasis-open.org/policies-guidelines/">policies</a>.  This Open Repository is not subject to the OASIS TC-related policies.  Open Repository governance is defined by separate <a href="https://www.oasis-open.org/policies-guidelines/open-repositories">participation and contribution guidelines</a> as referenced in the <a href="https://www.oasis-open.org/resources/open-repositories/">OASIS Open Repositories Overview</a>.</p>
-</div>
+```
+Developer's Certificate of Origin 1.1
 
-<div>
-<h2><a id="distinctLicenses">Licensing Distinct from OASIS IPR Policy</a></h2>
-<p>Because different licenses apply to the OASIS TC's specification work, and this Open Repository, there is no guarantee that the licensure of specific repository material will be compatible with licensing requirements of an implementation of a TC's specification.  Please refer to the <a href="https://github.com/oasis-open/dita-lightweight/blob/master/LICENSE">LICENSE file</a> for the terms of this material, and to the OASIS IPR Policy for <a href="https://www.oasis-open.org/policies-guidelines/ipr#RF-on-Limited-Mode">the terms applicable to the TC's specifications</a>, including any applicable <a href="https://www.oasis-open.org/committees/dita/ipr.php">declarations</a>.</p>
-</div>
+By making a contribution to this project, I certify that:
 
-<div>
-<h2><a id="contributionDefined">Contributions Subject to Individual CLA</a></h2>
+(a) The contribution was created in whole or in part by me and I
+    have the right to submit it under the open source license
+    indicated in the file; or
 
-<p>Formally, <a id="openRepoContribution">"contribution"</a> to this Open Repository refers to content merged into the "Code" repository (repository changes represented by code commits), following the GitHub definition of <i><a href="https://help.github.com/articles/github-glossary/#contributor">contributor</a></i>: "someone who has contributed to a project by having a pull request merged but does not have collaborator [<i>i.e.</i>, direct write] access."  Anyone who signs the Open Repository <a href="https://www.oasis-open.org/resources/open-repositories/cla/individual-cla">Individual Contributor License Agreement (CLA)</a>, signifying agreement with the licensing requirement, may contribute substantive content &mdash; subject to evaluation of a GitHub pull request.  The main web page for this repository, as with any GitHub public repository, displays a link to a document listing contributions to the repository's default branch (filtered by Commits, Additions, and Deletions).</p>
+(b) The contribution is based upon previous work that, to the
+    best of my knowledge, is covered under an appropriate open
+    source license and I have the right under that license to
+    submit that work with modifications, whether created in whole
+    or in part by me, under the same open source license (unless
+    I am permitted to submit under a different license), as
+    Indicated in the file; or
 
-<p>This Open Repository, as with GitHub public repositories generally, also accepts public feedback from any GitHub user.  Public feedback includes opening issues, authoring and editing comments, participating in conversations, making wiki edits, creating repository stars, and making suggestions via pull requests.  Such feedback does not constitute an OASIS Open Repository <a href="#openRepoContribution">contribution</a>.   Some details are presented under "Read permissions" in the table of <a href="https://help.github.com/articles/repository-permission-levels-for-an-organization/">permission levels</a> for a GitHub organization.  Technical content intended as a substantive contribution (repository "Code") to an Open Repository is subject to evaluation, and requires a signed Individual CLA.</p>
+(c) The contribution was provided directly to me by some other
+    person who certified (a), (b) or (c) and I have not modified
+    it.
 
+(d) I understand and agree that this project and the contribution
+    are public and that a record of the contribution (including
+    all personal information I submit with it, including my
+    sign-off) is maintained indefinitely and may be redistributed
+    consistent with this project or the open source license(s)
+    involved.
+```
+The DCO requires a sign-off message in the following format appear on each commit in the pull request: 
 
-</div>
-
-<div>
-<h2><a id="fork-and-pull-model">Fork-and-Pull Collaboration Model</a></h2>
-
-<p>OASIS Open Repositories use the familiar <a href="https://help.github.com/articles/using-pull-requests/#fork--pull">fork-and-pull</a> collaboration model supported by GitHub and other distributed version-control systems.  Any GitHub user wishing to contribute should <a href="https://help.github.com/articles/github-glossary/#fork">fork</a> the repository, make additions or other modifications, and then submit a pull request.  GitHub pull requests should be accompanied by supporting <a href="https://help.github.com/articles/commenting-on-the-diff-of-a-pull-request/">comments</a> and/or <a href="https://help.github.com/articles/about-issues/">issues</a>. Community conversations about pull requests, supported by GitHub <a href="https://help.github.com/articles/about-notifications/">notifications</a>, will provide the basis for a consensus determination to merge, modify, close, or take other action, as communicated by the repository <a href="https://www.oasis-open.org/resources/open-repositories/maintainers-guide">Maintainers</a>.</p>
-</div>
-
-<div>
-<h2><a id="feedback">Feedback</a></h2>
-
-<p>Questions or comments about this Open Repository's activities should be composed as GitHub issues or comments. If use of an issue/comment is not possible or appropriate, questions may be directed by email to the <a href="https://github.com/oasis-open/dita-lightweight/blob/master/README.md#maintainers">repository Maintainer(s)</a>.  Please send general questions about Open Repository participation to OASIS Staff at <a href="mailto:repository-admin@oasis-open.org">repository-admin@oasis-open.org</a> and any specific CLA-related questions to <a href="mailto:repository-cla@oasis-open.org">repository-cla@oasis-open.org</a>.</p>
-
-</div></div>
-
+```
+Signed-off-by: Stefan Vasile <stefan@sync.ro> 
+```
+Use your real name (sorry, no pseudonyms or anonymous contributions.). If you set your user.name and user.email git configs, you can sign your commit automatically with **git commit -s** If you forget to add the sign-off you can also amend a previous commit with the sign-off by running **git commit --amend -s**. If you've pushed your changes to GitHub already you'll need to force push your branch after this with **git push -f**.
