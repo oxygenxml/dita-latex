@@ -2,7 +2,6 @@
 <plugin id="com.oxygenxml.latex.svg">
   <feature extension="package.support.name" value="Oxygen XML Editor Support"/>
   <feature extension="package.support.email" value="support@oxygenxml.com"/>
-  <feature extension="package.version" value="21.0"/>
   <feature extension="dita.conductor.lib.import" file="lib/latexToSVG.jar"  xml:base="."/>
   <feature extension="dita.conductor.lib.import" file="lib/jlatexmath-1.0.3.jar"  xml:base="."/>
   
