@@ -7,6 +7,12 @@ If you set the @outputclass="embed-latex" attribute on a DITA <foreign> element 
 The "samples" folder contains a sample DITA topic with a Latex equation which is properly displayed when converted to HTML and PDF-based outputs.
   
 ![Preview Latex as SVG](previewLatex.png)
+
+## Installation steps
+
+- Download a zip containing the entire project: https://github.com/oxygenxml/dita-latex/archive/refs/heads/master.zip
+- Unzip and copy the sub-folder **com.oxygenxml.latex.svg** to the **DITA-OT\plugins** installation folder.
+- Install the DITA OT plugin running the **DITA-OT\bin\dita --install** command.
   
 Copyright and License
 ---------------------
