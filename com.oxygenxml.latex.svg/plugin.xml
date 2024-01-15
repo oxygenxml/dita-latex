@@ -10,4 +10,5 @@
 <!--  <feature extension="com.oxygenxml.pdf.css.xsl.merged2html5" value="xsl/xhtmlSVG.xsl" type="file"/>-->
   
   <feature extension="dita.xsl.xslfo" value="xsl/pdfSVG.xsl" type="file"/>
+  <feature extension="dita.specialization.catalog.relative" value="svg-dtd/svgcatalog.xml" type="file"/> 
 </plugin>
