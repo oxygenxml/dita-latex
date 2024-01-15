@@ -11,7 +11,7 @@ The "samples" folder contains a sample DITA topic with a Latex equation which is
 ## Installation steps
 
 - Download a zip containing the entire project: https://github.com/oxygenxml/dita-latex/archive/refs/heads/master.zip
-- Unzip and copy the sub-folder **com.oxygenxml.latex.svg** to the **DITA-OT\plugins** installation folder.
+- Unzip and copy the sub-folder **com.oxygenxml.latex.svg** to the **DITA-OT\plugins** installation folder. If you are using the DITA OT bundled with Oxygen, it is located in the **OXYGEN_INSTALL_DIR/frameworks/dita/DITA-OT** folder.
 - Install the DITA OT plugin running the **DITA-OT\bin\dita --install** command.
   
 Copyright and License
