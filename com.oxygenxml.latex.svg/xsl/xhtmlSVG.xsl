@@ -12,10 +12,12 @@ available in the base directory of this plugin.
   xmlns:saxon="http://saxon.sf.net/"
   xmlns:converter="java:com.oxygenxml.latex.svg.LatexToSVG">
   <xsl:template match="*[contains(@class, ' topic/foreign ')][contains(@outputclass, 'embed-latex')] | *[contains(@class, ' topic/latex ')]" priority="10">
-    <span>
-      <xsl:call-template name="commonattributes"/>
-      <xsl:copy-of select="parse-xml(converter:convert(text()))" use-when="not(function-available('saxon:parse'))"/>
-      <xsl:copy-of select="saxon:parse(converter:convert(text())" use-when="function-available('saxon:parse')"/>
-    </span>
+    <xsl:if test="node()">
+      <span>
+        <xsl:call-template name="commonattributes"/>
+        <xsl:copy-of select="parse-xml(converter:convert(text()))" use-when="not(function-available('saxon:parse'))"/>
+        <xsl:copy-of select="saxon:parse(converter:convert(text())" use-when="function-available('saxon:parse')"/>
+      </span>
+    </xsl:if>
   </xsl:template>
 </xsl:stylesheet>
