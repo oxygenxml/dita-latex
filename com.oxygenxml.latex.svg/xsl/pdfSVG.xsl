@@ -13,14 +13,16 @@ available in the base directory of this plugin.
     <xsl:template
         match="*[contains(@class, ' topic/foreign ')][contains(@outputclass, 'embed-latex')] | *[contains(@class, ' topic/latex ')]"
         priority="10">
-        <fo:inline>
-            <xsl:call-template name="commonattributes"/>
-            <fo:instream-foreign-object>
-                <xsl:copy-of select="parse-xml(converter:convert(text()))"
-                    use-when="not(function-available('saxon:parse'))"/>
-                <xsl:copy-of select="saxon:parse(converter:convert(text())"
-                    use-when="function-available('saxon:parse')"/>
-            </fo:instream-foreign-object>
-        </fo:inline>
+        <xsl:if test="node()">
+            <fo:inline>
+                <xsl:call-template name="commonattributes"/>
+                <fo:instream-foreign-object>
+                    <xsl:copy-of select="parse-xml(converter:convert(text()))"
+                        use-when="not(function-available('saxon:parse'))"/>
+                    <xsl:copy-of select="saxon:parse(converter:convert(text())"
+                        use-when="function-available('saxon:parse')"/>
+                </fo:instream-foreign-object>
+            </fo:inline>
+        </xsl:if>
     </xsl:template>
 </xsl:stylesheet>
